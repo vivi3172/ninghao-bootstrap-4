@@ -1,0 +1,16 @@
+{
+  "name": "ninghao-bootstrop-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start":"./node_modules/.bin/browser-sync start --server --no-natify --files='index.html, *.css, *.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}
